@@ -4,7 +4,7 @@ import java.time.format.DateTimeFormatter;
 public class FlightCalculator {
 
     public static void main(String[] args) {
-        // Пример: вылет из Лос-Анджелеса 15:05 PST, длительность 10 часов 50 минут
+        // вылет из Лос-Анджелеса 15:05 PST, длительность 10 часов 50 минут
         String departureTime = "2024-12-10T15:05:00"; // ISO-8601 формат
         String departureZone = "America/Los_Angeles";
         String arrivalZone = "Europe/Berlin";
